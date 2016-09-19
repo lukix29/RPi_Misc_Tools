@@ -10,7 +10,7 @@ namespace Lukix29
     public static class alarmclock
     {
         private static char ReplaceForCom(string input, out string command)
-        {
+        {//gf
             if (input.StartsWith("-"))
             {
                 input = input.Remove(0, 1);
